@@ -1,0 +1,5 @@
+add excelReader file to your code.
+Add excel to excle package and sheet name should be same as class name.
+from utility package --->TestUtils class--->paste getdata method
+add this annotation above method/class--->@Test(dataProviderClass=TestUtils.class,dataProvider="dp")
+and pass parameters throw method parameters and use in method.
